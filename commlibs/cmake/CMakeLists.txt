@@ -26,6 +26,7 @@ if (NOT DEFINED ENV{IDF_PATH})
 
   add_subdirectory(../os os.out)
   add_subdirectory(../util util.out)
+  add_subdirectory(../deps/pthread pthread.out)
 else ()
 
 endif()

@@ -18,4 +18,5 @@ if (SD_WINDOWS_64)
 endif ()
 
 include_directories(${SD_DIR}/os/include)
+include_directories(${SD_DIR}/deps/pthread)
 
