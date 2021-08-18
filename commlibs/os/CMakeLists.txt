@@ -18,6 +18,8 @@ if (DEFINED ENV{IDF_PATH})
 else ()
   if (SD_LINUX)
     add_subdirectory(src/linux)
+  elseif (SD_WINDOWS)
+	add_subdirectory(src/windows)
   endif()
 endif ()
 

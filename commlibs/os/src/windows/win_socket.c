@@ -18,6 +18,8 @@
 #include <ws2def.h>
 #include <tchar.h>
 
+#define SOL_TCP                  0x1234
+
 void sdWinSockInit() {
   static char flag = 0;
   if (flag == 0) {

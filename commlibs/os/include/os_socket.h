@@ -12,7 +12,10 @@
 #ifndef _OS_OS_SOCKET_H_
 #define _OS_OS_SOCKET_H_
 
+#if defined(SD_LINUX)
 typedef int32_t SOCKET;
+#endif
+
 #define	SA	struct sockaddr
 
 #ifdef __cplusplus
